@@ -38,6 +38,16 @@ public class Main {
         short sheetPaper = 480 / 80;
         System.out.println("Бумаги" + sheetPaper +"шт");
 
+        int bottlesPerMinute = 8;
+        int bottlesIn20Minutes = bottlesPerMinute * 20;
+        System.out.println("За 20 минут машина произвела"+ bottlesIn20Minutes + "штук бутылок");
+        int bottlesPerDay = bottlesPerMinute * 60 * 24;
+        System.out.println("За сутки машина произвела"+ bottlesPerDay + "штук бутылок");
+        int bottlesIn3Days = bottlesPerDay * 3;
+        System.out.println("За три дня машина произвела" + bottlesIn3Days + "Штук бутылок");
+        int bottlesInMonth = bottlesPerDay * 30;
+        System.out.println("За месяц" + bottlesInMonth + "штук бутылок");
+
 
 
 
