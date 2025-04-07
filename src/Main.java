@@ -48,6 +48,18 @@ public class Main {
         int bottlesInMonth = bottlesPerDay * 30;
         System.out.println("За месяц" + bottlesInMonth + "штук бутылок");
 
+        int totalCans = 120;
+        int cansPerClass = 6;
+        int numberOfClasses = totalCans / cansPerClass;
+        int whiteCans = numberOfClasses * 2;
+        int brownCans = numberOfClasses * 4;
+        System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + whiteCans + " банок белой краски и " + brownCans + " банок коричневой краски.");
+
+
+
+
+
+
 
 
 
