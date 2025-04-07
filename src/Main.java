@@ -64,6 +64,17 @@ public class Main {
         System.out.println("Общий вес завтрака: " + totalWeightGrams + " грамм");
         System.out.println("Общий вес завтрака: " + totalWeightKg + " килограмм");
 
+        int weightLossGoalGrams = 7000;
+        int dailyLossMin = 250;
+        int dailyLossMax = 500;
+        int daysMin = weightLossGoalGrams / dailyLossMin;
+        System.out.println("Если спортсмен будет терять по 250 грамм в день, потребуется " + daysMin + " дней.");
+        int daysMax = weightLossGoalGrams / dailyLossMax;
+        System.out.println("Если спортсмен будет терять по 500 грамм в день, потребуется " + daysMax + " дней.");
+        int averageDays = (daysMin + daysMax) / 2;
+        System.out.println("В среднем потребуется " + averageDays + " дней для достижения цели.");
+
+
 
 
 
