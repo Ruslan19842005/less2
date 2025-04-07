@@ -74,6 +74,28 @@ public class Main {
         int averageDays = (daysMin + daysMax) / 2;
         System.out.println("В среднем потребуется " + averageDays + " дней для достижения цели.");
 
+        double currentSalaryMasha = 67760;
+        double currentSalaryDenis = 83690;
+        double currentSalaryKristina = 76230;
+        double newSalaryMasha = currentSalaryMasha * 1.1;
+        double newSalaryDenis = currentSalaryDenis * 1.1;
+        double newSalaryKristina = currentSalaryKristina * 1.1;
+        double annualIncomeBeforeMasha = currentSalaryMasha * 12;
+        double annualIncomeBeforeDenis = currentSalaryDenis * 12;
+        double annualIncomeBeforeKristina = currentSalaryKristina * 12;
+        double annualIncomeAfterMasha = newSalaryMasha * 12;
+        double annualIncomeAfterDenis = newSalaryDenis * 12;
+        double annualIncomeAfterKristina = newSalaryKristina * 12;
+        double differenceMasha = annualIncomeAfterMasha - annualIncomeBeforeMasha;
+        System.out.println("Маша теперь получает " + newSalaryMasha + " рублей. Годовой доход вырос на " + differenceMasha + " рублей.");
+        double differenceDenis = annualIncomeAfterDenis - annualIncomeBeforeDenis;
+        System.out.println("Денис теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос на " + differenceDenis + " рублей.");
+        double differenceKristina = annualIncomeAfterKristina - annualIncomeBeforeKristina;
+        System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + differenceKristina + " рублей.");
+
+
+
+
 
 
 
