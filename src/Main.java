@@ -29,6 +29,17 @@ public class Main {
         char G = 67;
         System.out.println(G);
 
+        char teacherOne = 23;
+        char teacherTwo = 27;
+        char teacherThree =30;
+        int totalStudents = teacherOne + teacherTwo + teacherThree;
+        System.out.println("Учеников" + totalStudents + "Количество" );
+        short paper = 480;
+        short sheetPaper = 480 / 80;
+        System.out.println("Бумаги" + sheetPaper +"шт");
+
+
+
 
 
 
