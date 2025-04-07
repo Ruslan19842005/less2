@@ -7,7 +7,7 @@ public class Main {
         System.out.println(b);
         int c = 1000000000;
         System.out.println(c);
-        long d = 30000000000000000l;
+        long d = 30000000000000000L;
         System.out.println(d);
         float e = 2.75f;
         System.out.println(e);
@@ -16,7 +16,7 @@ public class Main {
 
         double A = 27.12;
         System.out.println(A);
-        long B = 987678965549l;
+        long B = 987678965549L;
         System.out.println(B);
         float C = 2.786f;
         System.out.println(C);
@@ -28,6 +28,7 @@ public class Main {
         System.out.println(F);
         char G = 67;
         System.out.println(G);
+
 
 
 
