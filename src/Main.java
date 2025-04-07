@@ -55,6 +55,15 @@ public class Main {
         int brownCans = numberOfClasses * 4;
         System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + whiteCans + " банок белой краски и " + brownCans + " банок коричневой краски.");
 
+        int bananasWeight = 5 * 80;
+        int milkWeight = (200 / 100) * 105;
+        int iceCreamWeight = 2 * 100;
+        int eggsWeight = 4 * 70;
+        int totalWeightGrams = bananasWeight + milkWeight + iceCreamWeight + eggsWeight;
+        float totalWeightKg = totalWeightGrams / 1000f;
+        System.out.println("Общий вес завтрака: " + totalWeightGrams + " грамм");
+        System.out.println("Общий вес завтрака: " + totalWeightKg + " килограмм");
+
 
 
 
