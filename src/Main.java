@@ -1,42 +1,34 @@
 public class Main {
     public static void main(String[] args) {
 
-        byte a = 25;
-        System.out.println(a);
-        short b = 270;
-        System.out.println(b);
-        int c = 1000000000;
-        System.out.println(c);
-        long d = 30000000000000000L;
-        System.out.println(d);
-        float e = 2.75f;
-        System.out.println(e);
-        double f = 3.6;
-        System.out.println(f);
+        byte myByte = 25;
+        System.out.println("Значение переменной myByte с типом byte равно " + myByte);
+        short myShort = 270;
+        System.out.println("Значение переменной myShort с типом short равно " + myShort);
+        int myInt = 100;
+        System.out.println("Значение переменной myInt с типом int равно " + myInt);
+        long myLong = 3000L;
+        System.out.println("Значение переменной myLong с типом long равно " + myLong);
+        float myFloat = 2.75f;
+        System.out.println("Значение переменной myFloat с типом float равно " + myFloat);
+        double myDouble = 3.6;
+        System.out.println("Значение переменной myDouble с типом double равно " + myDouble);
 
-        double A = 27.12;
-        System.out.println(A);
-        long B = 987678965549L;
-        System.out.println(B);
-        float C = 2.786f;
-        System.out.println(C);
-        short D = 569;
-        System.out.println(D);
-        short E = -159;
-        System.out.println(E);
-        short F = 27897;
-        System.out.println(F);
-        char G = 67;
-        System.out.println(G);
+        float value1 = 27.12f;
+        long value2 = 987678965549L;
+        float value3 = 2.786f;
+        short value4 = 569;
+        short value5 = -159;
+        short value6 = 27897;
+        byte value7 = 67;
 
-        char teacherOne = 23;
-        char teacherTwo = 27;
-        char teacherThree =30;
-        int totalStudents = teacherOne + teacherTwo + teacherThree;
-        System.out.println("Учеников" + totalStudents + "Количество" );
-        short paper = 480;
-        short sheetPaper = 480 / 80;
-        System.out.println("Бумаги" + sheetPaper +"шт");
+        int pupilsLudmila = 23;
+        int pupilsAnna = 27;
+        int pupilsEkaterina = 30;
+        int totalSheets = 480;
+        int totalPupils = pupilsLudmila + pupilsAnna + pupilsEkaterina;
+        int sheetsPerPupil = totalSheets / totalPupils;
+        System.out.println("На каждого ученика рассчитано " + sheetsPerPupil + " листов бумаги.");
 
         int bottlesPerMinute = 8;
         int bottlesIn20Minutes = bottlesPerMinute * 20;
